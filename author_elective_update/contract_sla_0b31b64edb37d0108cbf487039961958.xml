@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="DELETE">
+        <active>true</active>
+        <cancel_condition/>
+        <collection>incident</collection>
+        <condition_class/>
+        <duration>1970-01-01 00:30:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>Devoteam Inside Schedule</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="Mon - fre 8-16">c7a1fe02db77d0108cbf487039961950</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to>work_end</set_start_to>
+        <start_condition/>
+        <stop_condition/>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 11:08:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b31b64edb37d0108cbf487039961958</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Devoteam Inside Schedule</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>contract_sla_0b31b64edb37d0108cbf487039961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 11:17:56</sys_updated_on>
+        <target>response</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow/>
+    </contract_sla>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>f54c2adddb9b5b404c1ff70fbf9619e0</instance_id>
+        <instance_name>dev64641</instance_name>
+        <name>contract_sla_0b31b64edb37d0108cbf487039961958</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla"><contract_sla action="INSERT_OR_UPDATE"><active>true</active><cancel_condition/><collection>incident</collection><condition_class/><duration>1970-01-01 00:30:00</duration><duration_type/><enable_logging>false</enable_logging><flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow><name>Devoteam Inside Schedule</name><pause_condition/><relative_duration_works_on>Task record</relative_duration_works_on><reset_action>cancel</reset_action><reset_condition/><resume_condition/><retroactive>false</retroactive><retroactive_pause>true</retroactive_pause><schedule display_value="Mon - fre 8-16">c7a1fe02db77d0108cbf487039961950</schedule><schedule_source>sla_definition</schedule_source><schedule_source_field/><set_start_to>work_end</set_start_to><start_condition/><stop_condition/><sys_class_name>contract_sla</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-10-13 11:08:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b31b64edb37d0108cbf487039961958</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Devoteam Inside Schedule</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>contract_sla_0b31b64edb37d0108cbf487039961958</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-10-13 11:17:56</sys_updated_on><target>response</target><timezone/><timezone_source>task.caller_id.time_zone</timezone_source><type>SLA</type><when_to_cancel>on_condition</when_to_cancel><when_to_resume>on_condition</when_to_resume><workflow/></contract_sla></record_update>]]></payload>
+        <payload_hash>-1027704822</payload_hash>
+        <record_name>Devoteam Inside Schedule</record_name>
+        <reverted_from/>
+        <source>4b84dd64dbf310108cbf487039961994</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 11:17:56</sys_created_on>
+        <sys_id>17a3f282db77d0108cbf48703996190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17521ae5bb20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 11:17:56</sys_updated_on>
+        <type>SLA Definition</type>
+        <update_guid>5fa3f282ec77d01045928a2ddcf1b90a</update_guid>
+        <update_guid_history>5fa3f282ec77d01045928a2ddcf1b90a:-1027704822,69d2b2422977d010e09dc2814081ca1d:603425377,2fe1b64e6e37d010e5bccea0ee015198:-1027704822,d1917e029e77d0102b5bc42bdd717ca7:603425377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Devoteam Inside Schedule">8a443a82db77d0108cbf4870399619f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-13 11:20:34</sys_created_on>
+        <sys_db_object display_value="" name="contract_sla">contract_sla</sys_db_object>
+        <sys_id>4441f0005e774e9893766a25f1ca3690</sys_id>
+        <sys_metadata>0b31b64edb37d0108cbf487039961958</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Devoteam Inside Schedule</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>contract_sla_0b31b64edb37d0108cbf487039961958</sys_update_name>
+        <sys_update_version display_value="contract_sla_0b31b64edb37d0108cbf487039961958">17a3f282db77d0108cbf48703996190b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-13 11:20:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
